@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: #000000;
+    border-radius: 30px 30px 0 0;
+}
+
+.header-img{
+  max-width: 100%;
+  height: auto;
+
+  border-radius: 30px 30px 0 0;
+  position: relative;
+}
+
+.header-title{
+  font-size: 45px;
+  font-family: 'Sen', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+
+  margin-bottom: 75px;
+  position: absolute;
+  text-shadow: 0 0 4px #000000;
+}
+
+.header-subtitle{
+  font-size: 20px;
+  font-family: 'Sen', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+
+  margin-top: 75px;
+  position: absolute;
+  text-shadow: 0 0 4px #000000;
+}
+
+.header-subtitle-loginregister{
+  font-size: 75px;
+  font-family: 'Sen', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+
+  margin-top: -150px;
+  position: absolute;
+  text-shadow: 0 0 6px #000000;
+}
+
+
+
+.header-link{
+  margin-bottom: -7px;
+}
