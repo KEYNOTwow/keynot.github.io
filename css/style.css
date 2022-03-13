@@ -1,0 +1,140 @@
+body{
+  margin: 0;
+
+  font-family: 'Sen', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #000000;
+
+  background: url("../bg.jpg");
+  background-attachment: fixed;
+}
+
+*{
+  box-sizing: border-box;
+}
+*::after{
+  box-sizing: border-box;
+}
+*::before{
+  box-sizing: border-box;
+}
+
+.page {
+  width: 1006px;
+  margin: 20px auto;
+
+  background-color: #00000080;
+  border: 3px solid #ffffff;
+  border-radius: 30px;
+  box-shadow: 0 2px 15px #6222ff;
+}
+
+.page2 {
+  width: 1006px;
+  /* margin: 20px auto; */
+
+  background-color: #00000080;
+  border: 3px solid #ffffff;
+  border-radius: 30px;
+  box-shadow: 0 2px 10px #2288ff;
+}
+/* container */
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.container-skills{
+  display: flex;
+  flex-direction: column;
+}
+
+    /*header*/
+
+    /*nav*/
+
+.nav{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #00000080;
+}
+
+.nav-skills{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #00000080;
+  box-shadow: 0 15px 0 15px 15px #000000;
+}
+
+.nav-line{
+  width: 1000px;
+  margin: 2px 0;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.nav-link{
+  padding: 8px 12px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.nav-link:hover{
+  background-color: #18446c80;
+}
+
+/* nav link sidebar */
+
+.nav-side{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.nav-link-side{
+  text-decoration: none;
+  color: #ffffff;
+  transition: background 0.2s ease;
+}
+
+.nav-link-side a{
+  text-decoration: none;
+}
+
+.nav-link-side a:visited{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+
+.nav-link-side a:hover{
+  text-decoration: none;
+  padding: 7px;
+  background-color: #5b5b5b80;
+}
+
+
+.footer{
+  padding: 20px;
+  color: #ffffff;
+  border-top: 1px solid #2b2b2b;
+  text-align: center;
+  background-color: #53535380;
+  border-radius: 0 0 30px 30px;
+}
+
+.footer-main{
+  padding: 10px;
+  color: #ffffff;
+  border-top: 1px solid #2b2b2b;
+  text-align: center;
+  background-color: #53535380;
+  border-radius: 0 0 20px 20px;
+}
